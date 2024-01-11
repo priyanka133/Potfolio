@@ -1,0 +1,118 @@
+#hero {
+  width: 100%;
+  height: 75vh;
+  background: url(../src/Assets/hero.png) top center;
+  background-size: cover;
+  padding: 0 15px;
+  
+}
+
+.iconser{
+
+  background-color: #ff1493;
+  width:  50px;
+  border-radius: 50px;
+  padding: 30px;
+  width: 20px;
+  height: 15px;
+  margin-left: 67px;
+  
+ 
+
+}
+
+#hero h1 {
+padding-top: 160px;
+  padding-left: 40%;
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
+}
+#hero h2 {
+  padding-left: 40%;
+  color: #eee;
+  margin-bottom: 10px;
+  font-size: 24px;
+  font-weight: 300;
+  font-family: "Poppins", sans-serif;
+}
+.navbar-brand {
+ 
+  color: #2c4964;
+  text-decoration: none;
+}
+.navbar-collapse{
+  padding-left: 40%;
+}
+#header {
+  transition: all 0.5s;
+  z-index: 997;
+  transition: all 0.5s;
+  height: 60px;
+  background: #fff;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.12);
+}
+#header .navbar-brand  {
+  font-size: 26px;
+  margin: 0;
+  padding: 6px 0 0 50px;
+  line-height: 1;
+  font-weight: 500;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+.navbar-collapse ul {
+  margin: 0;
+  padding: 0;
+ 
+  list-style: none;
+  align-items: center;
+}
+.image {
+  background: url(../src/Assets/me.jpg) top center;
+    background-size: cover;
+    min-height: 400px;
+}
+.parallax {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+.porp #portfolio-flters {
+    padding: 0;
+    margin: 0 auto 35px auto;
+    list-style: none;
+    text-align: center;
+    background: #fff;
+    border-radius: 50px;
+    padding: 2px 15px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.08);
+}
+
+.porp #portfolio-flters li {
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 15px 8px 15px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #5a656e;
+  margin-bottom: 5px;
+  transition: all 0.3s ease-in-out;
+}
+
+.Sociallink .a{
+  font-size: 18px;
+  
+  width: 60px;
+  height: 36px;
+
+  border: 1px solid #d43076;
+}
